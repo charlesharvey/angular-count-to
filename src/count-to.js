@@ -29,7 +29,7 @@ var countTo = angular.module('countTo', [])
                             num = countTo;
                             e.innerHTML = parseFloat(Math.round(countTo * 100) / 100).toFixed(2) ;
                         } else {
-                            e.innerHTML = parseFloat(Math.round(num * 100) / 100).toFixed(2) +
+                            e.innerHTML = parseFloat(Math.round(num * 100) / 100).toFixed(2);
                             tick();
                         }
                     }, refreshInterval);
